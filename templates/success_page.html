@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <style>
+             body {
+  font-family: "Roboto", sans-serif;
+  background-color: #b2d6ff; }
         /* Custom CSS for dashboard */
         .dashboard {
             background-color: #f8f9fa;
@@ -64,7 +67,14 @@
     </style>
 </head>
 <body>
+
+    
+        <div class="mx-auto d-block" style="background-color: white; padding-bottom: 5px;">
+        <img src="https://cybergritt.com/wp-content/uploads/2023/09/CyberGritt-logo.png" alt="Image" class="mx-auto d-block" style="width: 5%;">
+        <h1 style="color: #113e69; font-weight: 900; font-size: 100%;" class="text-center">Cyber Gritt</h1>
+    </div>
     <div class="container mt-5">
+        
         <div class="dashboard">
             <!-- Place the map division first -->
             <div id="map"></div>
@@ -84,11 +94,138 @@
                 </div>
                 <div class="col-md-6">
                     <!-- Add the "powered by Google Authenticator" image here -->
-                    <img src="/google-authenticator-image.jpeg"  class="google-authenticator-image">
+                    <img src="https://cybergritt.com/wp-content/uploads/2023/09/Google-Authenticator.png"  class="google-authenticator-image">
+                </div>
+            </div>
+
+            <h1 class="mb-4">Other Users</h1>
+            <div class="row">
+                
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">User Details</h2>
+                        <p class="card-text">Name: Lucy Gomez</p>
+                        <p class="card-text">Email: lucygomez@outlook.com </p>
+                        <p class="card-text">Location: New York </p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">User Details</h2>
+                        <p class="card-text">Name: Alex Brown</p>
+                        <p class="card-text">Email: alex123@gmail.com </p>
+                        <p class="card-text">Location: Brighton uk </p>
+                        
+                    </div>
                 </div>
             </div>
         </div>
+        </div>
     </div>
+
+
+
+    <footer class="text-center text-white" style="background-color:white; margin-top: 4%;">
+      <div class="text-center p-3" style="background-color:  rgba(0, 0, 0, 0.2);">
+        
+        <h2 class="" style="color:#343a40 ;">Recommended Authenticator</h2>
+      </div>
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!-- Section: Images -->
+          <section class=" text-center">
+            
+            <div class="row justify-content-center">
+
+              <div class="col-sm-2 mb-4 mb-md-0">
+                
+              </div>
+              
+
+              <div class="col-sm-2 mb-4 mb-md-0">
+                <div
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                  data-ripple-color="light"
+                ><a href="https://www.microsoft.com/en-in/security/mobile-authenticator-app">
+                  <img
+                    src="https://cybergritt.com/wp-content/uploads/2023/09/Microsoft.png"
+                    class="w-100"
+                  />
+                </a>
+                <h4 style="color: #343a40;">Microsoft</h4>
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-2 mb-4 mb-md-0">
+                <div
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                  data-ripple-color="light"
+                ><a href="https://authy.com/">
+                  <img
+                    src="https://cybergritt.com/wp-content/uploads/2023/09/Authy.png"
+                    class="w-100"
+                  />
+                </a>
+                <h4 style="color: #343a40;">Authy</h4>
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-2 mb-4 mb-md-0">
+                <div
+                  class="bg-image hover-overlay ripple shadow-1-strong rounded"
+                  data-ripple-color="light"
+                ><a href="https://2fas.com/">
+                  <img
+                    src="https://cybergritt.com/wp-content/uploads/2023/09/2fas.png"
+                    class="w-100"
+                  />
+                </a>
+                <h4 style="color: #343a40;">2fas</h4>
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.2);"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-sm-2 mb-4 mb-md-0">
+                
+              </div>
+              
+            
+            </div>
+          </section>
+          <!-- Section: Images -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-white" href="#">cybergritt.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
     <!-- Add Bootstrap JS and popper.js scripts at the end of the body -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
